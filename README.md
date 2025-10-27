@@ -14,3 +14,16 @@ This competition is designed for students in Using machine learning algorithms t
 
 # Evaluation
 Your submissions will be evaluated using the F_beta score with β=0.5
+
+# Dataset Description
+**Files**
+train.csv – the training set containing domain names and labels.
+test.csv – the test set containing domain names without labels (to be predicted).
+sample_submission.csv – a sample submission file in the correct format, typically with columns example_id and label.
+
+**Columns**
+
+domain – the domain name to classify. Examples: 0000ad264572a083d3863cc42d97037b.co.cc, example.com.
+label – the target variable for classification:
+1 – DGA (algorithmically generated) domain
+0 – legitimate domain
